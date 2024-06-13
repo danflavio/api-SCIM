@@ -78,7 +78,7 @@ Cria novos usuários no sistema devolvendo na requisição, quando bem sucedida,
         + groups (array[GroupPost]) - Grupos ao qual o usuário está associado.                
         + password: pass001 (string) - senha do usuário. Quando não informado a senha deverá ser alterada posteriormente pelo admin.  
            + Default:hash randômico
-        + `ext/SAMAccountName`: user0007 (string) - Indica o login do usuário no SSO (caso informado, ele substituirá o valor informado no campo userName).
+        + `ext/sAMAccountName`: user0007 (string) - Indica o login do usuário no SSO (caso informado, ele substituirá o valor informado no campo userName).
         + `ext/adDomain`: XP01 (string) - domínio do usuário do SSO.
         + `urn:scim:schemas:extension:enterprise:2.0:User` (UserSup) - Indica as configurações de usuário superior.
         + `urn:scim:schemas:extension:enterprise:2.0:User/forceChangePassword`: true (boolean) - Identifica se deve ou não realizar a troca de senha no primeiro acesso.  
